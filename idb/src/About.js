@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { RingLoader } from 'react-spinners';
 import Members from './Members'
@@ -53,7 +52,7 @@ export default class About extends Component {
 			  }
 			 var issue_json = JSON.parse(body)
 			 for(var i = 0; i < issue_json.length; i++){
-				 var current_author = issue_json[i]["user"]["login"]
+				 // var current_author = issue_json[i]["user"]["login"]
 				 swe_members[String(issue_json[i]["user"]["login"])][2] += 1
 			 }
 			 this.setState({swe_member_data: swe_members, total_issues: issue_json.length, ready: true})

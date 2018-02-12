@@ -1,11 +1,8 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import PoliticalPartyInstance from './PoliticalPartyInstance.js';
 import all_parties from './assets/all-parties.json';
 import reps_info from './assets/all-reps-endpoint.json';
-
-var request = require("request");
 
 export default class PoliticalParty extends Component {
     constructor(props) {

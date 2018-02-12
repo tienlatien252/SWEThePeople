@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import header from './assets/images/header.png'
 import './App.css';
 let state_json = require('./assets/data/state.json')
 export default class Districts extends Component {
@@ -26,11 +25,11 @@ export default class Districts extends Component {
 		}
 	}
   render() {
-	  let senators = null
-	  let senator_obj = null
-	  if(this.state.senator_count != 0){
-		  senators = <h2>Senators:</h2>
-	  }
+	  // let senators = null
+	  // let senator_obj = null
+	  // if(this.state.senator_count != 0){
+		//   senators = <h2>Senators:</h2>
+	  // }
 	return (
 	  <div className="App">
 	  <br />

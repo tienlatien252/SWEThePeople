@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import {GridList} from 'material-ui/GridList';
 import RepresentativeInstance from './RepresentativeInstance'
-import logo from './logo.svg';
 import './App.css';
 import './PoliticalPartyDetails.css';
 import all_parties from './assets/all-parties.json';
@@ -24,7 +22,7 @@ export default class PoliticalPartyDetails extends Component {
 
         var this_party = {}
         for (var i = 0; i < all_parties.length; i++) {
-            if (all_parties[i]["id"] == this.props.match.params.id) {
+            if (all_parties[i]["id"] === this.props.match.params.id) {
                 this_party = all_parties[i]
             }
         }

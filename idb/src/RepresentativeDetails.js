@@ -4,15 +4,7 @@ import './App.css';
 import allReps from './assets/bioguide-endpoint.json';
 import { Link } from 'react-router-dom'
 import {Timeline} from 'react-twitter-widgets'
-import { Grid, Row, Col } from 'react-bootstrap';
-
-
-const styles = {
-  hyperlink: {
-	textDecoration: "none",
-	color: "black"
-  },
-};
+import { Row, Col } from 'react-bootstrap';
 
 export default class RepresentativeDetails extends Component {
   constructor(props){

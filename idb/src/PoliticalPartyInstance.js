@@ -3,10 +3,6 @@ import { Link } from 'react-router-dom'
 import './PoliticalPartyInstance.css';
 
 export default class Parties extends Component {
-    constructor(props) {
-        super(props)
-    }
-    
     render() {
         const styles = {
             imgStyle: {
@@ -34,7 +30,7 @@ export default class Parties extends Component {
                                 <h3>{key} Party</h3>
                                 <p>
                                     <span style={styles.numReps}>
-                                        Number of representatives: 
+                                        Number of representatives:
                                     </span>
                                     {this.props.party_data[key]["num_reps"]}
                                 </p>
