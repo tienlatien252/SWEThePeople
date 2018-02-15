@@ -15,6 +15,7 @@ export default class Members extends Component {
                         {'"' + this.props.swe_data[item][7] + '"'}
                     </p>
                     <img src={require("./assets/images/about/" + this.props.swe_data[item][5])}
+                         alt={this.props.swe_data[item][7]}
                          width='300' height='300' />
 
                     <br />

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import './About.css';
 import { RingLoader } from 'react-spinners';
@@ -147,7 +146,7 @@ export default class About extends Component {
                     </a>
                 </p>
             </div>
-        
+
             <div className="about-header">
                 <h1>Your Representatives</h1>
             </div>
@@ -164,6 +163,7 @@ export default class About extends Component {
                     <div className="col-sm-3">
                         <div className="tools-card">
                             <img src={require("./assets/images/about/github.png")}
+                                 alt="Github"
                                  className="img-responsive" />
                             <h5>GitHub</h5>
                             <p>
@@ -177,6 +177,7 @@ export default class About extends Component {
                     <div className="col-sm-3">
                         <div className="tools-card">
                             <img src={require("./assets/images/about/gitbook.png")}
+                                 alt="Gitbook"
                                  className="img-responsive" />
                             <h5>Gitbook</h5>
                             <p>
@@ -189,6 +190,7 @@ export default class About extends Component {
                     <div className="col-sm-3">
                         <div className="tools-card">
                             <img src={require("./assets/images/about/reactjs.png")}
+                                 alt="ReactJS"
                                  className="img-responsive" />
                             <h5>ReactJS</h5>
                             <p>
@@ -201,6 +203,7 @@ export default class About extends Component {
                     <div className="col-sm-3">
                         <div className="tools-card">
                             <img src={require("./assets/images/about/ec2.jpg")}
+                                 alt="Amazon EC2"
                                  className="img-responsive" />
                             <h5>Amazon EC2</h5>
                             <p>
@@ -214,6 +217,7 @@ export default class About extends Component {
                     <div className="col-sm-3">
                         <div className="tools-card">
                             <img src={require("./assets/images/about/bootstrap.png")}
+                                 alt="Bootstrap"
                                  className="img-responsive" />
                             <h5>Bootstrap</h5>
                             <p>
@@ -227,6 +231,7 @@ export default class About extends Component {
                     <div className="col-sm-3">
                         <div className="tools-card">
                             <img src={require("./assets/images/about/flask.png")}
+                                 alt="Python Flask"
                                  className="img-responsive" />
                             <h5>Python Flask</h5>
                             <p>
@@ -239,6 +244,7 @@ export default class About extends Component {
                     <div className="col-sm-3">
                         <div className="tools-card">
                             <img src={require("./assets/images/about/nginx.png")}
+                                 alt="NGINX"
                                  className="img-responsive" />
                             <h5>NGINX</h5>
                             <p>
@@ -251,6 +257,7 @@ export default class About extends Component {
                     <div className="col-sm-3">
                         <div className="tools-card">
                             <img src={require("./assets/images/about/slack.png")}
+                                 alt="Slack"
                                  className="img-responsive" />
                             <h5>Slack</h5>
                             <p>
@@ -272,13 +279,14 @@ export default class About extends Component {
                     <div className="col-sm-3">
                         <div className="data-card">
                             <img src={require("./assets/images/about/propubica.jpg")}
+                                 alt="ProPublica"
                                  className="img-responsive" />
                             <h3>ProPublica</h3>
                             <p>
                                 Used to get information about all of U.S.
                                 representatives, their party, and corresponding
                                 districts.
-                            </p> 
+                            </p>
                         </div>
                     </div>
                 </a>
@@ -286,13 +294,14 @@ export default class About extends Component {
                     <div className="col-sm-3">
                         <div className="data-card">
                             <img src={require("./assets/images/about/govtrack.png")}
+                                 alt="GovTrack"
                                  className="img-responsive" />
                             <h3>GovTrack</h3>
                             <p>
                                 Used to get information about recent bills
                                 sponsored by each representatives and their
                                 current status.
-                            </p> 
+                            </p>
                         </div>
                     </div>
                 </a>
@@ -300,6 +309,7 @@ export default class About extends Component {
                     <div className="col-sm-3">
                         <div className="data-card">
                             <img src={require("./assets/images/about/census.png")}
+                                 alt="US Census Bureau"
                                  className="img-responsive" />
                             <h3>US Census Bureau</h3>
                             <p>
@@ -314,12 +324,13 @@ export default class About extends Component {
                     <div className="col-sm-3">
                         <div className="data-card">
                             <img src={require("./assets/images/about/unitedstatesio.png")}
+                                 alt="TheUnitedStates.io"
                                  className="img-responsive" />
                             <h3>TheUnitedStates.io</h3>
                             <p>
                                 Used to get images of representatives based on
                                 their bioguide id.
-                            </p> 
+                            </p>
                         </div>
                     </div>
                 </a>
