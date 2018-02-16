@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import header from './assets/images/header.png'
 import './App.css';
 import './District.css';
+import Map from './Map.js'
 
 let state_json = require('./assets/data/state.json')
 export default class Districts extends Component {
@@ -66,6 +67,7 @@ export default class Districts extends Component {
 						   districts_arr: districts_list})
 		}
 	}
+
   render() {
 
 	let styles = {
@@ -99,6 +101,7 @@ export default class Districts extends Component {
 			<h1 className="district-header">
 				{state_json[this.props.match.params.districtid]}
 			</h1>
+            <Map state={state_json[this.props.match.params.districtid]}/>
 			<div className="row">
 				{districts_grid}
 			</div>
